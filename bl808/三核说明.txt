@@ -1,0 +1,9 @@
+BL808有3个RISC-V核：
+
+D0核（480MHz RV64）：跑linux freertos等 关于整个系统的调配，视频的，还有npu的调配等主要的功能这里实现。
+
+M0核（320MHz RV32）：处理wifi，zigbee，蓝牙
+
+LP核（160MHz RV32）：处理低功耗等
+
+NPU 跑图像处理
